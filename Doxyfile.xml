@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KataAPI</name>
+    </assembly>
+    <members>
+        <member name="T:KataAPI.Class1">
+            <summary>
+            This class contains 10 methods each with it's own unique function.\n
+            This function are solutions I have created for Katas in CodeWars.\n
+            The link to CodeWars: https://www.codewars.com/dashboard.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:KataAPI.Class1.IsThueMorse(System.Int32[])" -->
+        <member name="M:KataAPI.Class1.ElevatorDistance(System.Int32[])">
+            <summary>
+            This method calculates the total number of floors you've climbed.\n
+            Link to this Kata: https://www.codewars.com/kata/59f061773e532d0c87000d16.
+            
+            INPUT:\n
+            Integer "array".
+            
+            OUTPUT:\n
+            An integer.
+            </summary>
+            <param name="array"> - This parameter is a integer array and contains the floors you have visited so far.</param>
+            <returns>Returns the total number of floor distance you have made.</returns>
+        </member>
+        <member name="M:KataAPI.Class1.CircleOfNumbers(System.Int32,System.Int32)">
+            <summary>
+            This method finds the number that is on the opposite side of the FirstNumber.\n
+            Link to this Kata: https://www.codewars.com/kata/58841cb52a077503c4000015.
+            
+            INPUT:\n
+            integer 'n'.\n
+            A positive even integer.
+            
+            Constraints: 4 ≤ n ≤ 1000.\n
+            Integer "firstNumber" / "first_number" / "first-number".\n
+            Constraints: 0 ≤ firstNumber ≤ n - 1.
+            
+            OUTPUT:\n
+            An integer.
+            </summary>
+            <param name="n"> - The "n" parameter is a integer and contains the limit for how many numbers the circle will have.</param>
+            <param name="FirstNumber"> - The "FirstNumber" parameter is a integer whose opposite number needs to be found.</param>
+            <returns>Returns the number that is opposite from the given FirstNumber.</returns>
+        </member>
+        <member name="M:KataAPI.Class1.MakeComplement(System.String)">
+            <summary>
+            This method the complements of each of the symbols found in our DNA.\n
+            DNA (Deoxyribonucleic acid), is a chemical found in the nucleus of cells and holds the "blueprints" for how the living organism should function and develop.\n
+            In DNA, the symbols 'A' and 'T' are complements of each other and so are the symbols 'C' and 'G'.
+            
+            For more information: https://en.wikipedia.org/wiki/DNA.\n
+            The link to this Kata: https://www.codewars.com/kata/554e4a2f232cdd87d9000038.
+            
+            INPUT:\n
+            String "dna".
+            
+            OUTPUT:\n
+            A string.
+            </summary>
+            <param name="dna"> - This parameter is a string and holds the dna whose complement will be returned.</param>
+            <returns>Returns the complement of the each of the symbols on the given DNA.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:KataAPI.Class1.Past(System.Int32,System.Int32,System.Int32)" -->
+        <member name="M:KataAPI.Class1.NumberToString(System.Int32)">
+            <summary>
+            This method converts an integer value into a string.\n
+            The link to this Kata: https://www.codewars.com/kata/5265326f5fda8eb1160004c8.
+            
+            INPUT:\n
+            Integer "num".
+            
+            OUTPUT:\n
+            A string.
+            </summary>
+            <param name="num"> - This parameter is a integer and is the value which is gonna get converted into a string.</param>
+            <returns>Returns the converted integer.</returns>
+        </member>
+        <member name="M:KataAPI.Class1.Opposite(System.Int32)">
+            <summary>
+            This method converts a number into its opposite value.\n
+            The link to this Kata: https://www.codewars.com/kata/56dec885c54a926dcd001095.
+            
+            INPUT:\n
+            Integer "number".
+            
+            OUTPUT:\n
+            An integer.
+            </summary>
+            <param name="number"> - This parameter is a integer whose opposite needs to be found.</param>
+            <returns>Return the opposite value of the number.</returns>
+        </member>
+        <member name="M:KataAPI.Class1.humanYearsCatYearsDogYears(System.Int32)">
+            <summary>
+            This method calculates how many cat years or dog years are found in human years.\n
+            1 human years = 15 cat/dog years.\n
+            2 human years = 9 cat/dog years.\n
+            3+ human years = 4 cat years and 5 dog years each year after 2 human years.\n
+            The link to this Kata: https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b.
+            
+            NOTE:\n
+            humanYears >= 1,\n
+            humanYears are whole numbers only.
+            
+            INPUT:\n
+            Integer "humanYears".
+            
+            OUTPUT:\n
+            An integer array.
+            </summary>
+            <param name="humanYears"> - This parameter is a string.</param>
+            <returns>Returns how many cat/dog years are in the given humanYears as an array.</returns>
+        </member>
+        <member name="M:KataAPI.Class1.sumTwoSmallestNumbers(System.Int32[])">
+            <summary>
+            This method finds the sum of the two smallest values of an array of integers.\n
+            The link to this Kata: https://www.codewars.com/kata/558fc85d8fd1938afb000014.
+            
+            INPUT:\n
+            Integer array "numbers".
+            
+            OUTPUT:\n
+            An integer.
+            </summary>
+            <param name="numbers"> - "numbers" parameter is a integer array whose the sum of the two smallest value needs to be found.</param>
+            <returns>Returns the sum of the two of the smallest values in the numbers array.</returns>
+        </member>
+        <member name="M:KataAPI.Class1.GetGoals(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This method finds how many goals Messi has scored in three leagues. (This one is just for fun!)\n
+            The link to this Kata: https://www.codewars.com/kata/55f73be6e12baaa5900000d4.
+            
+            INPUT:\n
+            Integer "laLigaGoals", "copaDelReyGoals", "championsLeagueGoals".
+            
+            OUTPUT:\n
+            An integer.
+            </summary>
+            <param name="laLigaGoals"> - The "laLigaGoals" parameter is a integer and holds the number of goals scored in that league.</param>
+            <param name="copaDelReyGoals"> - The "copaDelReyGoals" parameter is a integer and holds the number of goals scored in that league.</param>
+            <param name="championsLeagueGoals"> - The "championsLeagueGoals" parameter is a integer and holds the number of goals scored in that league.</param>
+            <returns>Returns the total number of goals scored in all three leagues.</returns>
+        </member>
+    </members>
+</doc>
