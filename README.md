@@ -3,16 +3,16 @@ This Library offers 10 methods that help with solving problems. (The features fo
 The features found in this Library are:
 ## IsThueMorse
 
-This method decides whether a sequence of 0s and 1s is a Thue-Morse sequence or not.
+- This method decides whether a sequence of 0s and 1s is a Thue-Morse sequence or not.
 For more info about Thue-Morse, check out: https://en.wikipedia.org/wiki/Thue%E2%80%93Morse_sequence.
 
-The link to this Kata: https://www.codewars.com/kata/589a9792ea93aae1bf00001c.
+- The link to this Kata: https://www.codewars.com/kata/589a9792ea93aae1bf00001c.
 
 ## ElevatorDistance
 
-This method calculates the floor distance between every floor that you visited.
+- This method calculates the floor distance between every floor that you visited.
 
-Link to this Kata: https://www.codewars.com/kata/59f061773e532d0c87000d16.
+- Link to this Kata: https://www.codewars.com/kata/59f061773e532d0c87000d16.
 
 ## CircleOfNumber
 
